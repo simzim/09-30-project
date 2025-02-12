@@ -1,0 +1,59 @@
+.hero-bg {
+    background-color: var(--bggreen);
+    min-height: 710px;
+}
+
+.hero {
+    position:relative;
+    min-height: inherit;
+    background: url('../img/plant-right.svg');
+/* background-size: cover; */
+background-position: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    width:428px;
+    height: 464px;
+    bottom: -20px;
+    left: -20px;
+    background: url('../img/plant-left.svg');
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+
+.hero-mid{
+    min-height: inherit;
+    max-width: 594px;
+    background: rgba(80, 128, 107, 0.2);
+    backdrop-filter: blur(20px);
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dark-line {
+    width: 100%;
+    min-height: 35px;
+    background-color: var(--green);
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 0.03em;
+}
+
+.slogan {
+    max-width: 430px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    margin: 30px auto 38px auto;
+}
