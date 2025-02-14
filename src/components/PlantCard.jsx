@@ -3,7 +3,6 @@ import Button from './Button';
 
 export default function PlantCard({title, imageSrc, price, discount, showDiscount}){
     
-
     const discountedPrice = (price * (1 - discount / 100)).toFixed(2);
 
     return(

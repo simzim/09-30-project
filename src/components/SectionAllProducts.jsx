@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import SectionHot from './SectionHot';
+import SectionDeals from './SectionDeals';
 
 
 
@@ -17,7 +18,7 @@ export default function SectionAllProducts(){
                 const allProductsWithImages = await Promise.all(data.map(async (product) => {
                         let imagePath;
                         try{
-                            imagePath = await import(`../img/plants/${product.fileName}`);
+                            imagePath = await import(`../img/plants/${product.image}`);
                         }
                         catch(error){
                             imagePath = await import(`../img/plants/empty.svg`);
@@ -37,10 +38,11 @@ export default function SectionAllProducts(){
         fetchAllProducts();
     }, []);
 
-
+    console.log(typeof allProducts)
     return(
         <>
             <SectionHot allProducts = {allProducts}/>
+            <SectionDeals allProducts = {allProducts}/>
         </>
     )
 }
