@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Luisa",
+      "text": "Healthy, happy plants",
+      "img": "luisa.jpg",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "Edoardo",
+      "text": "Recommend to all my plant friends",
+      "img": "edoardo.jpg",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Mart",
+      "text": "I turned my house into my dream jungle",
+      "img": "mart.jpg",
+      "rating": 4.5
+    }
+  ]

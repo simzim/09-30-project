@@ -38,7 +38,7 @@ export default function SectionAllProducts(){
         fetchAllProducts();
     }, []);
 
-    console.log(typeof allProducts)
+  
     return(
         <>
             <SectionHot allProducts = {allProducts}/>

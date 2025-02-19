@@ -1,0 +1,19 @@
+.testimonials-section{
+    padding: 80px 0 60px;
+    font-style: normal;
+    text-align: center;
+}
+
+.test-title{
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 62px;
+    letter-spacing: -2.4px;
+}
+
+.test-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 26px;
+}
