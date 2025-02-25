@@ -1,0 +1,12 @@
+.social-menu {
+    margin: 25px auto 48px auto;
+}
+
+.social-menu-links{
+    display: flex;
+    justify-content: center;
+}
+
+.social-menu-links a{
+margin: 0 8px;
+}

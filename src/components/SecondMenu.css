@@ -1,0 +1,17 @@
+.second-menu-links {
+    display: flex;
+    justify-content: center;
+}
+
+.second-menu-links a {
+    color: var(--black);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 15px;
+    padding: 8px 12px;
+}
+
+.second-menu-links a:hover {
+    color: var(--dGreen);
+    text-shadow: 2px 2px 1px rgba(80,128,107,0.5);
+}

@@ -1,0 +1,10 @@
+.footer-baner{
+    min-height: 55px;
+    background-color: var(--green);
+    text-transform: uppercase;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
