@@ -30,6 +30,11 @@
     text-shadow: 2px 2px 1px rgba(80,128,107,0.5);
 }
 
+.header-links a.active {
+    color: var(--dGreen);
+    text-shadow: 2px 2px 1px rgba(80,128,107,0.5);
+}
+
 .header-right {
     display: flex;
     align-items: center;

@@ -11,6 +11,7 @@ export default function DealsCardList({allProducts}){
            {  topDiscounted.map((card) =>(
                 <PlantCard
                     key={card.id}
+                    plantid={card.id}
                     imageSrc={card.imageSrc}
                     title={card.title}
                     price={card.price}

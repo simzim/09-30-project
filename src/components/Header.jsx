@@ -3,6 +3,7 @@ import Logo from '../img/Logo.svg';
 import SearchLogo from '../img/Search.svg';
 import ShopIcon from '../img/chart.svg';
 import React, { useState, useRef } from 'react';  
+import { NavLink } from 'react-router-dom';
 
 export default function Header(){
 
@@ -24,10 +25,10 @@ export default function Header(){
             <div className="wrapper header">
                 <a><img src={Logo}/></a>
                 <nav className='header-links'>
-                    <a href='#'>Home</a>
-                    <a href='#'>Products</a>
-                    <a href='#'>About us</a>
-                    <a href='#'>Contact us</a>
+                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='/products'>Products</NavLink>
+                    <NavLink to='/about'>About us</NavLink>
+                    <NavLink to='/contact'>Contact us</NavLink>
                 </nav>
                 <div>
                 <div className='header-right'>
