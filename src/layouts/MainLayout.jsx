@@ -7,15 +7,17 @@ import TopLine from "../components/TopLine";
 export default function MainLayout() {
   return (
 
-    <>
+    <div className="container">
+      <div>
         <TopLine/>
         <Header/>
-       
-            <Outlet/> 
-    
+      </div>
+      <main>
+        <Outlet/> 
 
-        <SectionFooter/>
-    </>
+      </main>
+      <SectionFooter/>
+    </div>
     
   )
 }

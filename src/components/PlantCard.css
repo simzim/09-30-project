@@ -11,6 +11,10 @@
 
 }
 
+.plant-card-link {
+    color: var(--black);
+}
+
 .img-box {
     position: relative;
     text-align: center;
